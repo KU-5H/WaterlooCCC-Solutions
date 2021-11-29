@@ -3,10 +3,12 @@ A list of solutions for the Waterloo CCC (Canadian Computing Competition) that I
 
 **Some things to note about the solutions:**
 
-  They are all coded in java since that's the language I best know 
+  - They are all coded in java since that's the language I best know 
 
-  There's not too many comments in the code (So it'll be hard to understand)
+  - There's not too many comments in the code (So it'll be hard to understand)
 
-  There's only a handful of years and solutions currently (I'm not the best at coding LOL) 
+  - There's only a handful of years and solutions currently (I'm not the best at coding LOL) 
 
-  All solutions are currently junior level (senior will be added once I learn it)
+  - All solutions are currently junior level (senior will be added once I learn it)
+
+  - If the name of the file has a T then it means its not completed yet (or at least the code dosen't get full makrs in the submission)
