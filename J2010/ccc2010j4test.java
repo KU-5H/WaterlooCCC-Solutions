@@ -31,6 +31,7 @@ public class ccc2010j4test {
         }
         
         //loop and statements to ifnally check for value and post pattern value
+        int num = testArr[0];
         if(num == 0) {
             System.out.println(" ");
         } else if (num == 1) {
@@ -40,7 +41,6 @@ public class ccc2010j4test {
             while(true) {
                 
                 //Variables and array used later on (one is for beginning value and other is for saving and last if the acutal counter)
-                int num = testArr[0];
                 int length = 1;
                 boolean works = true;
                 int check[] = new int[rem.length];
