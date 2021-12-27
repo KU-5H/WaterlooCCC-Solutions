@@ -7,3 +7,4 @@ A list of solutions for the Waterloo CCC (Canadian Computing Competition) that I
   - There's only a handful of years and solutions currently (I'm not the best at coding LOL) 
   - All solutions are currently junior level (senior will be added once I learn it)
   - If the name of the file has a T then it means its not completed yet (or at least the code dosen't get full marks in the submission)
+  - You may notice that there are packages for each of the files. Simply ignore those as they only exist since I'm writing the solution in folders.
