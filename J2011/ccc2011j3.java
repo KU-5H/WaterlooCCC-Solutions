@@ -18,7 +18,6 @@ public class ccc2011j3 {
         int count = 0;
         int sequence = 2;
 
-
         while(true) {
 
             int difference = numbers.get(count) - numbers.get(count+1);
@@ -33,8 +32,6 @@ public class ccc2011j3 {
         }
 
         System.out.println(sequence);
-
-        
     }
     
 }

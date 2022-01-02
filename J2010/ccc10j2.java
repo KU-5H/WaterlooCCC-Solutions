@@ -14,6 +14,8 @@ public class ccc10j2
         int c = input.nextInt();
         int d = input.nextInt();
         int s = input.nextInt();
+
+        input.close();
         
         int cycle1 = s/(a+b);
         int cycle2 = s/(c+d);
