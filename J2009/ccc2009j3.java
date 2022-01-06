@@ -22,11 +22,17 @@ public class ccc2009j3 {
         times[6] = time + 130;
         
         String lastCity = Integer.toString(times[5]);
+        String lastCity2 = Integer.toString(times[6]);
         int lastNumString = Integer.valueOf(lastCity.substring(lastCity.length()-2, lastCity.length()));
         int difference = times[6] - lastNumString;
-        if(difference >= 60) {
-            times[6] -= 60;
-            times[6] += 100;
+
+        int sixIndex = Integer.valueOf(lastCity2.substring(lastCity2.length()-2, lastCity2.length()));
+
+        if(sixIndex >= 60) {
+            if(difference >= 60) {
+                times[6] -= 60;
+                times[6] += 100;
+            }
         }
 
         for(int i = 0; i < 7; i++) {
@@ -40,7 +46,6 @@ public class ccc2009j3 {
             }
 
             System.out.println(times[i] + " in " + cities[i]);
-
         }
     }
     
