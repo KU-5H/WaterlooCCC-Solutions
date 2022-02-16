@@ -10,8 +10,6 @@ public class ccc2021j3 {
 
         ArrayList<String> directions = new ArrayList<String>();
 
-        int count = 0;
-
         while(true) {
 
             String line = input.nextLine();
@@ -23,9 +21,9 @@ public class ccc2021j3 {
             }
 
             directions.add(line);
-
-            count++;
         }
+
+        input.close();
 
         String savedCompass = "";
         
